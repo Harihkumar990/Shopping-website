@@ -1,0 +1,203 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: wheat;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+}
+.heading{
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color: rgb(234, 243, 242);
+    position: fixed;
+    width: 100vw;
+    z-index:1;
+    align-items: center;
+    border: none;
+    border-bottom: 1 px solid black;
+}
+.input-container{
+    display: flex;
+}
+.search-input{
+    width:300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.search-input:focus{
+    outline: none;
+}
+.home{
+    text-decoration: none;
+}
+
+    
+
+.container2-resize{
+
+    background-color: aqua;
+    width:500px;
+    height: 350px;
+    position: relative;
+    top:100px;
+    display: grid;
+    grid-template-columns: 250px 200px;
+    grid-template-rows: 330px  ;
+    margin-left: 200px;
+    
+    
+    box-shadow: 10px 10px rgb(194, 206, 31);
+}
+.image-resize{
+    width:200px;
+    height:300px;
+    margin-left: 25px;
+    box-shadow: 5px 5px black;
+
+}
+.product-description{
+    
+    width:240px;
+    margin-left: 8px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+.product-name{
+    position: relative;
+
+    top: 10px;
+    color: red;
+    font-size: 25px;
+}
+.product-price{
+    font-weight: 800px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.product-details{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.style{
+
+    width:200px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.old-price{
+    text-decoration: line-through;
+    font-size: 19px;
+}
+.discount-price{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.buy-button{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color:white;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+    
+
+}
+.buy-button:hover{
+    background-color: transparent;
+    transition: all 0.2 ease-in-out;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  margin-left: 10px;
+  
+}
+.button-text{
+    margin-left: 30px;
+}
+.totalpricecontainer{
+    
+    width: 500px;
+    position: relative;
+    top:100px;
+    
+    
+}
+.maincontainer{
+    display: grid;
+    grid-template-columns: 500px 250px;
+    grid-column-gap:300px ;
+    
+    
+}
+.cart{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-row-gap: 50px;
+}
+.Nameprice{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-left:50px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+    background-color: aquamarine;
+    
+    
+}
+.price{
+    padding: 20px 20px 20px;
+}
+.chargescontainer{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    gap: 10px;
+    margin: 20px 50px;
+    
+}
+.countcontainer{
+    position: relative;
+    left:250px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.add{
+    width:100px
+}
+.quantity{
+    font-size: 25px;
+    margin: 10px 30px;
+}
